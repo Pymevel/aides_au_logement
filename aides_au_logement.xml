@@ -1,0 +1,38 @@
+<config xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" mviewerversion="3.9.2" mviewerstudioversion="4">
+<metadata>
+
+                <rdf:RDF>
+                    <rdf:Description rdf:about="http://www.ilrt.bristol.ac.uk/people/cmdjb/">
+                        <dc:title>Aides au logement</dc:title>
+                        <dc:creator>py.mevel</dc:creator>
+                        <dc:identifier>1a1481f8462d</dc:identifier>
+                        <dc:keywords />
+                        <dc:publisher>fougeres_agglomeration</dc:publisher>
+                        <dc:description>30-10-2023-15-32-37</dc:description>
+                        <dc:date>2023-10-30T14:32:37.648Z</dc:date>
+                        <dc:relation />
+                        <dc:subject>Périmètres du PLH</dc:subject>
+                    </rdf:Description>
+                </rdf:RDF>
+</metadata>
+<application title="Aides au logement" logo="https://fougeres-agglo.bzh/wp-content/uploads/2022/07/Logo-rvb-avec-marges.jpg" favicon="" help="" titlehelp="" iconhelp="fas fa-home" home="" style="css/themes/default.css" zoomtools="true" initialextenttool="true" exportpng="false" showhelp="false" coordinates="false" measuretools="true" mouseposition="false" geoloc="true" studio="" togglealllayersfromtheme="false">
+</application>
+<mapoptions maxzoom="20" projection="EPSG:3857" center="-138591.24159003515,6172940.1485375585" zoom="10.28721341442941" />
+<proxy url="" />
+<olscompletion type="ban" url="https://api-adresse.data.gouv.fr/search/" attribution="Base adresse nationale (BAN)" />
+<searchparameters bbox="false" localities="true" features="false" static="false" />
+<baselayers style="default"> 
+    <baselayer visible="true" id="positron" thumbgallery="img/basemap/positron.png" title="CartoDb" label="Positron" type="OSM" url="https://{a-c}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" attribution="Map tiles by  &lt;a href=&quot;https://cartodb.com/attributions&quot;&gt;CartoDb&lt;/a&gt;, under  &lt;a href=&quot;https://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY 3.0 &lt;/a&gt;" /> 
+    <baselayer visible="false" id="ortho_ign" thumbgallery="img/basemap/ortho.jpg" title="IGN" label="Photographies aériennes IGN" type="WMTS" url="https://wxs.ign.fr/choisirgeoportail/geoportail/wmts?" layers="ORTHOIMAGERY.ORTHOPHOTOS" format="image/jpeg" fromcapacity="false" attribution="&lt;a href='https://geoservices.ign.fr' target='_blank'&gt;&lt;img src='https://geoservices.ign.fr/images/logoIGN.png'&gt;&lt;/a&gt;" style="normal" matrixset="PM" maxzoom="22" /> 
+    <baselayer visible="false" id="osm" thumbgallery="img/basemap/osm.png" title="OSM" label="OpenStreetMap" type="OSM" url="https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution="Données : les contributeurs d'&lt;a href=&quot;https://www.openstreetmap.org/&quot; target=&quot;_blank&quot;&gt;OpenStreetMap &lt;/a&gt;&lt;a href=&quot;https://www.openstreetmap.org/copyright&quot; target=&quot;_blank&quot;&gt;ODbL &lt;/a&gt;" /> 
+    <baselayer visible="false" id="plan_ign" thumbgallery="img/basemap/scan-express.jpg" title="IGN" label="Plan IGN v2" type="WMTS" url="https://wxs.ign.fr/choisirgeoportail/geoportail/wmts?" layers="GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2" format="image/png" fromcapacity="false" attribution="&lt;a href='https://geoservices.ign.fr' target='_blank'&gt;&lt;img src='https://geoservices.ign.fr/images/logoIGN.png'&gt;&lt;/a&gt;" style="normal" matrixset="PM" maxzoom="22" /> 
+</baselayers>
+<themes mini="false"> 
+    <theme id="theme-20231030154802" name="Périmètres du PLH" collapsed="true" icon="fas fa-home"> 
+        <layer id="centre_bourg" name="Délimitation des bourgs" type="wms" url="https://geobretagne.fr/geoserver/fougeresagglo/wms" tiled="true" visible="true" infoformat="text/html" fields="" aliases="" style="" stylesalias="" metadata="https://geobretagne.fr/geonetwork/srv/eng/catalog.search?node=srv#/metadata/724a7bc1-a122-48c2-99a3-ede244e5076c" metadata-csw="https://geobretagne.fr/geonetwork/srv/fre/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;ELEMENTSETNAME=full&amp;ID&amp;ID=724a7bc1-a122-48c2-99a3-ede244e5076c" attribution="PLH de Fougères Agglomération" queryable="true" searchable="false" fusesearchkeys="" fusesearchresult="" useproxy="false" filter="" sld="" legendurl="" featurecount="" infopanel="right-panel" opacity="1" index="" styletitle="" dynamiclegend="false" toplayer="false" exclusive="false" showintoc="true">
+        </layer> 
+        <layer id="coeur_bourg" name="Délimitation des cœurs de bourg" type="wms" url="https://geobretagne.fr/geoserver/fougeresagglo/wms" tiled="true" visible="true" infoformat="text/html" fields="" aliases="" style="" stylesalias="" metadata="https://geobretagne.fr/geonetwork/srv/eng/catalog.search?node=srv#/metadata/1f3166e6-3675-4263-adca-f08341037f2b" metadata-csw="https://geobretagne.fr/geonetwork/srv/fre/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;ELEMENTSETNAME=full&amp;ID&amp;ID=1f3166e6-3675-4263-adca-f08341037f2b" attribution="PLH de Fougères Agglomération" queryable="true" searchable="false" fusesearchkeys="" fusesearchresult="" useproxy="false" filter="" sld="" legendurl="" featurecount="" infopanel="right-panel" opacity="1" index="" styletitle="" dynamiclegend="false" toplayer="false" exclusive="false" showintoc="true">
+        </layer> 
+    </theme> 
+</themes>
+</config>
